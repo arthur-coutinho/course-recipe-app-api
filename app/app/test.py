@@ -1,6 +1,4 @@
 """ 
-
-
 Unit tests
 """
 from django.test import SimpleTestCase
@@ -16,8 +14,10 @@ class CalcTests(SimpleTestCase):
 
         self.assertEqual(result,11)
 
+
     def test_substract_number(self):
         """Teste the substract function"""
         result = calc.substract(10,15)
 
         self.assertEqual(result,5)
+        
